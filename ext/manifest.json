@@ -16,11 +16,11 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": true
+    "page": "src/background.html"
   },
   "permissions": [
-    "*://*/*"
+    "*://*/*",
+    "tabs"
   ],
   "content_scripts": [
     {

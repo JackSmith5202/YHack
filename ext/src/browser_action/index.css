@@ -1,0 +1,22 @@
+#micPic{
+  height: 25px;
+  width: 25px;
+}
+
+.putInLine{
+  float: left;
+}
+
+#background{
+  padding: 10px;
+  height: 25px;
+  width: 280px;
+}
+
+#micPic:hover{
+  cursor: pointer;
+}
+
+#submitButton:hover{
+  cursor: pointer;
+}
